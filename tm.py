@@ -6,7 +6,8 @@
 from selenium import webdriver
 from urllib.parse import urlparse
 from random import randint
-import csv, time
+from getpass import getuser
+import csv, time, requests
 
 # Enter the customer home website, name (for trademark check), and search query
 
