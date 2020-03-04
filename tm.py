@@ -125,7 +125,7 @@ def readTrademarksFromText():
     return trademarksToCheck
 
 def main():
-    l = Atamlogger(1001, 'trademarkviolations', 'phmolock', '82302af0')
+    l = Atamlogger(1002, 'trademarkviolations', 'phmolock', '82302af0')
     trademarksToCheck = readTrademarksFromText()
     checkTrademarks(trademarksToCheck)
 
